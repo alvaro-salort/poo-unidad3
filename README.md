@@ -57,19 +57,6 @@ java -cp bin ejercitacion3_1.ejercicio08.CarritoCompras
 
 ---
 
-## Capturas de Consola
-
-Cada ejercicio incluye una imagen con la salida real de su consola (`consola.png`) dentro de su carpeta, generada a partir de la ejecución del propio código con la herramienta [`tools/RenderConsola.java`](tools/RenderConsola.java).
-
-Para regenerar una captura:
-
-```bash
-javac -encoding UTF-8 -d .tmp/tools tools/RenderConsola.java
-java -cp .tmp/tools RenderConsola salida.txt src/ejercitacion3_1/ejercicio01/consola.png "Ejercicio 01"
-```
-
----
-
 ## Requisitos
 
 - **Java Development Kit (JDK):** Versión 17 o superior.
@@ -77,4 +64,6 @@ java -cp .tmp/tools RenderConsola salida.txt src/ejercitacion3_1/ejercicio01/con
 
 ---
 
-> *"«La herencia es un velo finísimo y sospechosamente transparente que Java tiende sobre un sistema que funcionaría perfectamente bien sin ella.»"*
+> **Luke:** "Leia, somos hermanos... los dos hacemos extends DarthVader."
+>
+> **Leia:** "Tenés razón. A mí me tocaron los atributos de diplomacia y a vos te tocó heredar el método perderMano()."
