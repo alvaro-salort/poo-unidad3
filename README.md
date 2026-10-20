@@ -1,6 +1,6 @@
-# Programación Orientada a Objetos - Ejercitación 3.E.1 (Herencia)
+# Programación Orientada a Objetos - Ejercitaciones 3.E.1 y 3.E.2
 
-Este repositorio contiene la resolución de la **Ejercitación 3.E.1** de la materia **Programación Orientada a Objetos en Java**, centrada en **herencia**.
+Este repositorio contiene la resolución de las **Ejercitaciones 3.E.1 y 3.E.2** de la materia **Programación Orientada a Objetos en Java**.
 
 Cada ejercicio está modularizado de forma independiente dentro de su propio paquete. Todos los ejercicios son **autocontenidos**: las clases que se necesitan (`ProductoGeek`, `Comic`, `FiguraColeccionable`, etc.) se replican en el paquete de cada ejercicio para poder compilarlo y ejecutarlo por separado sin dependencias externas.
 
@@ -24,6 +24,21 @@ Además, se incluye un **Menú Interactivo de Consola (`Main.java`)** para compi
 | **08. CarritoCompras** | [`CarritoCompras.java`](src/ejercitacion3_1/ejercicio08/CarritoCompras.java) | Colección heterogénea `ArrayList<ProductoGeek>` con invocación polimórfica por `for-each`. |
 | **09. VerificadorGarantia** | [`VerificadorGarantia.java`](src/ejercitacion3_1/ejercicio09/VerificadorGarantia.java) | Inspección de tipos con `instanceof`, *downcasting* seguro y modificador `final`. |
 | **10. PromocionGeek** | [`PromocionGeek.java`](src/ejercitacion3_1/ejercicio10/PromocionGeek.java) | Modelo integral de promociones por categoría sobre un lote de productos. |
+
+### Ejercitación 3.E.2: Clases, Instanciación, Comportamiento y Asociación
+
+| Ejercicio | Archivo Principal | Descripción & Lógica Aplicada |
+| --- | --- | --- |
+| **01. Persona** | [`Persona.java`](src/ejercitacion3_2/ejercicio01/Persona.java) | Modelado básico, instanciación con `new` y explicación del Stack vs Heap. |
+| **02. Mascota** | [`Mascota.java`](src/ejercitacion3_2/ejercicio02/Mascota.java) | Constructor parametrizado con `this` e impresión con `String.format()`. |
+| **03. Auto** | [`Auto.java`](src/ejercitacion3_2/ejercicio03/Auto.java) | Métodos de instancia `void` que alteran el estado interno del vehículo. |
+| **04. CalculadoraFinanciera** | [`CalculadoraFinanciera.java`](src/ejercitacion3_2/ejercicio04/CalculadoraFinanciera.java) | Métodos con retorno mediante `return` para el cálculo del interés simple. |
+| **05. CuentaBancaria** | [`CuentaBancaria.java`](src/ejercitacion3_2/ejercicio05/CuentaBancaria.java) | Ocultamiento de datos con `private`, getters/setters y métodos de negocio. |
+| **06. Empleado** | [`Empleado.java`](src/ejercitacion3_2/ejercicio06/Empleado.java) | Preservación del invariante de clase ante sueldo y antigüedad inválidos. |
+| **07. ConvertidorUnidades** | [`ConvertidorUnidades.java`](src/ejercitacion3_2/ejercicio07/ConvertidorUnidades.java) | Sobrecarga de métodos por firma con resolución estática en compilación. |
+| **08. Punto2D** | [`Punto2D.java`](src/ejercitacion3_2/ejercicio08/Punto2D.java) | Sobrescritura de `toString()` y cálculo de distancia euclidiana. |
+| **09. SensorTemperatura y Termostato** | [`SensorTemperatura.java`](src/ejercitacion3_2/ejercicio09/SensorTemperatura.java) | Interacción entre objetos por paso de mensajes y paso de referencias. |
+| **10. Computadora y Procesador** | [`Computadora.java`](src/ejercitacion3_2/ejercicio10/Computadora.java) | Agregación simple con atributo de referencia y delegación en la impresión. |
 
 ---
 
