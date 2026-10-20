@@ -66,4 +66,4 @@ java -cp bin ejercitacion3_1.ejercicio08.CarritoCompras
 
 > **Luke:** "Leia, somos hermanos... los dos hacemos `extends DarthVader`."
 >
-> **Leia:** "Tenés razón. A mí me tocaron los atributos de diplomacia y a vos te tocó heredar el método `perderMano()`."
+> **Leia:** "Tenés razón. A mí me tocaron los atributos de diplomacia y a vos el método `perderMano()`."
