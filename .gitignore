@@ -27,3 +27,6 @@ replay_pid*
 
 # Archivos temporales de generacion de capturas
 .tmp/
+
+# Herramientas locales de generacion de capturas
+tools/
