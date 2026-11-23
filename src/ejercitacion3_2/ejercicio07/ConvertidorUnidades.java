@@ -23,7 +23,7 @@ public class ConvertidorUnidades {
     public static void main(String[] args) {
         ConvertidorUnidades convertidor = new ConvertidorUnidades();
 
-        System.out.println("--- LAS TRES VERSIONES SOBRECARGADAS ---");
+        System.out.println("LAS TRES VERSIONES SOBRECARGADAS");
 
         // version 1: un solo argumento double
         double metros = 150.0;

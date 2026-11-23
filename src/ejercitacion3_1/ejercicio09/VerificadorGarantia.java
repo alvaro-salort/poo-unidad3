@@ -23,12 +23,12 @@ public class VerificadorGarantia {
 
         VerificadorGarantia verificador = new VerificadorGarantia();
 
-        System.out.println("--- ANALISIS CON instanceof ---");
+        System.out.println("ANALISIS CON instanceof");
         verificador.analizarGarantia(juego);
         verificador.analizarGarantia(consola);
         verificador.analizarGarantia(mouse);
 
-        System.out.println("\n--- PRECIO DE VENTA CON METODO final ---");
+        System.out.println("\nPRECIO DE VENTA CON METODO final");
         System.out.printf("%-22s $%.2f%n", juego.getNombre(), juego.calcularPrecioVenta());
     }
 }

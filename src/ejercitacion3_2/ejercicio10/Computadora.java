@@ -13,7 +13,7 @@ public class Computadora {
     }
 
     public void mostrarEspecificaciones() {
-        System.out.println("--- ESPECIFICACIONES DE LA COMPUTADORA ---");
+        System.out.println("ESPECIFICACIONES DE LA COMPUTADORA");
         System.out.println("Marca: " + this.marca);
         System.out.println("RAM:   " + this.ramGB + " GB");
         // delegacion: la computadora delega la impresion del procesador a su toString()

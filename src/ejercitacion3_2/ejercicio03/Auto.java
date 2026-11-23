@@ -33,16 +33,16 @@ public class Auto {
         Auto auto = new Auto("Toyota", "Etios");
 
         // estado inicial: apagado por defecto
-        System.out.println("--- ESTADO INICIAL ---");
+        System.out.println("ESTADO INICIAL");
         auto.mostrarEstado();
 
         // secuencia de encendido
-        System.out.println("\n--- ENCENDIDO ---");
+        System.out.println("\nENCENDIDO");
         auto.encender();
         auto.mostrarEstado();
 
         // secuencia de apagado
-        System.out.println("\n--- APAGADO ---");
+        System.out.println("\nAPAGADO");
         auto.apagar();
         auto.mostrarEstado();
     }

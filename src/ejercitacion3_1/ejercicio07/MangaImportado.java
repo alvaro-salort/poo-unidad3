@@ -38,18 +38,18 @@ public class MangaImportado extends Comic {
         MangaImportado manga = new MangaImportado("MI-500", "One Piece", 8500.0, 103, "Japon", 1350.0);
         Comic comic = new Comic("CG-001", "Berserk", 9500.0, 41);
 
-        System.out.println("--- JERARQUIA DE TRES NIVELES ---");
+        System.out.println("JERARQUIA DE TRES NIVELES");
         System.out.println("Nivel 1: ProductoGeek");
         System.out.println("Nivel 2: Comic");
         System.out.println("Nivel 3: MangaImportado\n");
 
-        System.out.println("--- DATOS HEREDADOS Y PROPIOS ---");
+        System.out.println("DATOS HEREDADOS Y PROPIOS");
         System.out.printf("Codigo:      %s (nivel 1)%n", manga.getCodigo());
         System.out.printf("NumeroTomo:  %d (nivel 2)%n", manga.getNumeroTomo());
         System.out.printf("Pais origen: %s (nivel 3)%n", manga.getPaisOrigen());
         System.out.printf("Impuesto:    $%.2f (nivel 3)%n", manga.getImpuestoAduana());
 
-        System.out.println("\n--- PRECIO DE VENTA CON IMPUESTO ---");
+        System.out.println("\nPRECIO DE VENTA CON IMPUESTO");
         System.out.printf("Comic (nivel 2):       $%.2f%n", comic.calcularPrecioVenta());
         System.out.printf("MangaImportado:       $%.2f%n", manga.calcularPrecioVenta());
     }

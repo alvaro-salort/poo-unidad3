@@ -62,33 +62,33 @@ public class CuentaBancaria {
          */
         CuentaBancaria cuenta = new CuentaBancaria("CBU-00123", "Nicolas Gomez", 150000.0);
 
-        System.out.println("--- DATOS DE LA CUENTA ---");
+        System.out.println("DATOS DE LA CUENTA");
         System.out.println("Numero de cuenta: " + cuenta.getNumeroCuenta());
         System.out.println("Titular:          " + cuenta.getTitular());
         System.out.printf("Saldo:            $%.2f%n", cuenta.getSaldo());
 
         // cambio de titular (unico setter permitido)
-        System.out.println("\n--- CAMBIO DE TITULAR ---");
+        System.out.println("\nCAMBIO DE TITULAR");
         cuenta.setTitular("Nicolas Gomez Lopez");
         System.out.println("Nuevo titular: " + cuenta.getTitular());
 
         // deposito valido
-        System.out.println("\n--- DEPOSITOS ---");
+        System.out.println("\nDEPOSITOS");
         cuenta.depositar(50000.0);
 
         // deposito invalido: monto negativo
-        System.out.println("\n--- DEPOSITO CON MONTO NEGATIVO ---");
+        System.out.println("\nDEPOSITO CON MONTO NEGATIVO");
         cuenta.depositar(-1000.0);
 
         // retiro valido
-        System.out.println("\n--- RETIRO VALIDO ---");
+        System.out.println("\nRETIRO VALIDO");
         cuenta.retirar(30000.0);
 
         // retiro invalido: supera el saldo
-        System.out.println("\n--- RETIRO QUE SUPERA EL SALDO ---");
+        System.out.println("\nRETIRO QUE SUPERA EL SALDO");
         cuenta.retirar(9999999.0);
 
-        System.out.println("\n--- ESTADO FINAL ---");
+        System.out.println("\nESTADO FINAL");
         System.out.printf("Saldo: $%.2f%n", cuenta.getSaldo());
     }
 }

@@ -29,11 +29,11 @@ public class FiguraColeccionable extends ProductoGeek {
         ProductoGeek producto = new ProductoGeek("PG-100", "Mouse Gamer", 45000.0);
         FiguraColeccionable figura = new FiguraColeccionable("FC-200", "Figura Luffy", 80000.0, true);
 
-        System.out.println("--- COMPORTAMIENTO DIFERENCIAL DE calcularPrecioVenta() ---");
+        System.out.println("COMPORTAMIENTO DIFERENCIAL DE calcularPrecioVenta()");
         System.out.printf("%-28s $%.2f%n", producto.getNombre(), producto.calcularPrecioVenta());
         System.out.printf("%-28s $%.2f%n", figura.getNombre(), figura.calcularPrecioVenta());
 
-        System.out.println("\n--- MISMO METODO, DISTINTO COMPORTAMIENTO ---");
+        System.out.println("\nMISMO METODO, DISTINTO COMPORTAMIENTO");
         System.out.printf("ProductoGeek        -> $%.2f%n", producto.calcularPrecioVenta());
         System.out.printf("FiguraColeccionable -> $%.2f (base + 25%%)%n", figura.calcularPrecioVenta());
     }

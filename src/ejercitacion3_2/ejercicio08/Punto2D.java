@@ -34,12 +34,12 @@ public class Punto2D {
         Punto2D origen = new Punto2D();
 
         // println invoca automaticamente el toString() sobrescrito
-        System.out.println("--- REPRESENTACION TEXTUAL ---");
+        System.out.println("REPRESENTACION TEXTUAL");
         System.out.println("Punto 1: " + punto1);
         System.out.println("Punto 2: " + punto2);
         System.out.println("Origen:  " + origen);
 
-        System.out.println("\n--- DISTANCIA EUCLIDIANA ---");
+        System.out.println("\nDISTANCIA EUCLIDIANA");
         System.out.printf("Distancia entre punto 1 y punto 2: %.4f%n", punto1.calcularDistancia(punto2));
         System.out.printf("Distancia entre origen y punto 1:   %.4f%n", origen.calcularDistancia(punto1));
     }

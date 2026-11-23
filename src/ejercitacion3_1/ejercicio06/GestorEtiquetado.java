@@ -14,11 +14,11 @@ public class GestorEtiquetado {
 
         GestorEtiquetado gestor = new GestorEtiquetado();
 
-        System.out.println("--- ETIQUETADO POLIMORFICO ---");
+        System.out.println("ETIQUETADO POLIMORFICO");
         gestor.imprimirEtiqueta(comic);
         gestor.imprimirEtiqueta(figura);
 
-        System.out.println("\n--- MISMA FIRMA, DISTINTO COMPORTAMIENTO EN TIEMPO DE EJECUCION ---");
+        System.out.println("\nMISMA FIRMA, DISTINTO COMPORTAMIENTO EN TIEMPO DE EJECUCION");
         ProductoGeek referencia = comic;
         gestor.imprimirEtiqueta(referencia);
         referencia = figura;

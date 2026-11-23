@@ -6,9 +6,7 @@ Cada ejercicio está modularizado de forma independiente dentro de su propio paq
 
 Además, se incluye un **Menú Interactivo de Consola (`Main.java`)** para compilar y ejecutar cualquier consigna cómodamente.
 
----
-
-## 📂 Índice de Ejercicios Resueltos
+## Índice de Ejercicios Resueltos
 
 ### Ejercitación 3.E.1: Herencia
 
@@ -40,8 +38,6 @@ Además, se incluye un **Menú Interactivo de Consola (`Main.java`)** para compi
 | **09. SensorTemperatura y Termostato** | [`SensorTemperatura.java`](src/ejercitacion3_2/ejercicio09/SensorTemperatura.java) | Interacción entre objetos por paso de mensajes y paso de referencias. |
 | **10. Computadora y Procesador** | [`Computadora.java`](src/ejercitacion3_2/ejercicio10/Computadora.java) | Agregación simple con atributo de referencia y delegación en la impresión. |
 
----
-
 ## Compilación y Ejecución
 
 ### Opción 1: Menú Interactivo de Consola (¡Recomendado!)
@@ -70,14 +66,10 @@ java -cp bin ejercitacion3_1.ejercicio08.CarritoCompras
 
 > La opción `-sourcepath src` le permite a `javac` resolver las clases auxiliares del mismo ejercicio automáticamente.
 
----
-
 ## Requisitos
 
 - **Java Development Kit (JDK):** Versión 17 o superior.
 - **IDE recomendado:** Visual Studio Code, IntelliJ IDEA, Eclipse o NetBrains.
-
----
 
 > **Luke:** "Leia, somos hermanos... los dos hacemos `extends DarthVader`."
 >

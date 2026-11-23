@@ -31,12 +31,12 @@ public class ConsolaEdicionEspecial extends HardwareGeek {
     public static void main(String[] args) {
         ConsolaEdicionEspecial consola = new ConsolaEdicionEspecial(250000.0, "NS-77A-0092", "Nintendo Switch OLED");
 
-        System.out.println("--- ACCESO A MIEMBROS DE LA SUPERCLASE ---");
+        System.out.println("ACCESO A MIEMBROS DE LA SUPERCLASE");
         System.out.printf("Franquicia:    %s%n", consola.getNombreFranquicia());
         System.out.printf("Precio costo:  $%.2f%n", consola.getPrecioCosto());
         System.out.printf("Numero serie:  %s%n", consola.getNumeroSerie());
 
-        System.out.println("\n--- GANANCIA ESTIMADA ---");
+        System.out.println("\nGANANCIA ESTIMADA");
         double pvp = 399999.0;
         System.out.printf("Precio PVP:      $%.2f%n", pvp);
         System.out.printf("Ganancia:        $%.2f%n", consola.calcularGananciaEstimada(pvp));

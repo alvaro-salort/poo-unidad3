@@ -29,11 +29,11 @@ public class VideojuegoFisico extends ProductoGeek {
     }
 
     public static void main(String[] args) {
-        System.out.println("=== ORDEN DE EJECUCION DE LOS CONSTRUCTORES ===\n");
+        System.out.println("ORDEN DE EJECUCION DE LOS CONSTRUCTORES\n");
 
         VideojuegoFisico juego = new VideojuegoFisico("VG-045", "Elden Ring", 45999.0, "PS5", 480.0);
 
-        System.out.println("\n--- DATOS DEL VIDEOJUEGO ---");
+        System.out.println("\nDATOS DEL VIDEOJUEGO");
         System.out.printf("Codigo:      %s%n", juego.getCodigo());
         System.out.printf("Nombre:      %s%n", juego.getNombre());
         System.out.printf("PrecioBase:  $%.2f%n", juego.getPrecioBase());

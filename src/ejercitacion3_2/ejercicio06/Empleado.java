@@ -42,22 +42,22 @@ public class Empleado {
     public static void main(String[] args) {
         // empleado valido
         Empleado empleado1 = new Empleado("L-100", "Laura Sanchez", 850000.0, 5);
-        System.out.println("--- EMPLEADO VALIDO ---");
+        System.out.println("EMPLEADO VALIDO");
         System.out.printf("Legajo: %s | Nombre: %s | Sueldo base: $%.2f | Antiguedad: %d anios%n",
                 empleado1.getLegajo(), empleado1.getNombre(), empleado1.getSueldoBase(), empleado1.getAntiguedad());
 
         // empleado con sueldo negativo: el constructor lo corrige a 0.0
-        System.out.println("\n--- EMPLEADO CON SUELDO NEGATIVO (INVALIDO) ---");
+        System.out.println("\nEMPLEADO CON SUELDO NEGATIVO (INVALIDO)");
         Empleado empleado2 = new Empleado("L-200", "Carlos Diaz", -500000.0, -3);
         System.out.printf("Legajo: %s | Nombre: %s | Sueldo base: $%.2f | Antiguedad: %d anios%n",
                 empleado2.getLegajo(), empleado2.getNombre(), empleado2.getSueldoBase(), empleado2.getAntiguedad());
 
         // aumento valido
-        System.out.println("\n--- AUMENTO VALIDO ---");
+        System.out.println("\nAUMENTO VALIDO");
         empleado1.aplicarAumento(20.0);
 
         // aumento invalido: porcentaje negativo o cero
-        System.out.println("\n--- AUMENTO NO VALIDO ---");
+        System.out.println("\nAUMENTO NO VALIDO");
         empleado1.aplicarAumento(-10.0);
         empleado1.aplicarAumento(0.0);
     }

@@ -27,13 +27,10 @@ public class Main {
     public static void main(String[] args) {
         int opcion = -1;
         do {
-            System.out.println("\n==================================================");
             System.out.println("       MENÚ PRINCIPAL - EJERCITACIONES POO        ");
-            System.out.println("==================================================");
             System.out.println("1. Ejercitación 3.E.1 (Ejercicios 1 a 10)");
             System.out.println("2. Ejercitación 3.E.2 (Ejercicios 1 a 10)");
             System.out.println("0. Salir");
-            System.out.println("==================================================");
             System.out.print("Seleccione una opción: ");
 
             opcion = leerEntero();
@@ -57,9 +54,7 @@ public class Main {
     private static void menuEjercitacion3_1() {
         int opcion = -1;
         do {
-            System.out.println("\n--------------------------------------------------");
             System.out.println("              EJERCITACIÓN 3.E.1                  ");
-            System.out.println("--------------------------------------------------");
             System.out.println("1.  Ejercicio 1: ProductoGeek y Comic");
             System.out.println("2.  Ejercicio 2: VideojuegoFisico");
             System.out.println("3.  Ejercicio 3: FiguraColeccionable");
@@ -71,7 +66,6 @@ public class Main {
             System.out.println("9.  Ejercicio 9: VerificadorGarantia");
             System.out.println("10. Ejercicio 10: PromocionGeek");
             System.out.println("0.  Volver al menú principal");
-            System.out.println("--------------------------------------------------");
             System.out.print("Seleccione un ejercicio a ejecutar: ");
 
             opcion = leerEntero();
@@ -129,9 +123,7 @@ public class Main {
     private static void menuEjercitacion3_2() {
         int opcion = -1;
         do {
-            System.out.println("\n--------------------------------------------------");
             System.out.println("              EJERCITACIÓN 3.E.2                  ");
-            System.out.println("--------------------------------------------------");
             System.out.println("1.  Ejercicio 1: Persona");
             System.out.println("2.  Ejercicio 2: Mascota");
             System.out.println("3.  Ejercicio 3: Auto");
@@ -143,7 +135,6 @@ public class Main {
             System.out.println("9.  Ejercicio 9: SensorTemperatura y Termostato");
             System.out.println("10. Ejercicio 10: Computadora y Procesador");
             System.out.println("0.  Volver al menú principal");
-            System.out.println("--------------------------------------------------");
             System.out.print("Seleccione un ejercicio a ejecutar: ");
 
             opcion = leerEntero();

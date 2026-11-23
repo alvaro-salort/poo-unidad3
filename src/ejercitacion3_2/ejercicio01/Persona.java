@@ -31,11 +31,11 @@ public class Persona {
         persona2.nombre = "Ana";
         persona2.edad = 22;
 
-        System.out.println("--- DATOS DE LAS INSTANCIAS ---");
+        System.out.println("DATOS DE LAS INSTANCIAS");
         System.out.println("Persona 1: " + persona1.nombre + ", " + persona1.edad + " anios.");
         System.out.println("Persona 2: " + persona2.nombre + ", " + persona2.edad + " anios.");
 
-        System.out.println("\n--- LAS AMBAS VARIABLES APUNTAN A OBJETOS DISTINTOS ---");
+        System.out.println("\nLAS AMBAS VARIABLES APUNTAN A OBJETOS DISTINTOS");
         System.out.println("persona1 == persona2: " + (persona1 == persona2));
     }
 }

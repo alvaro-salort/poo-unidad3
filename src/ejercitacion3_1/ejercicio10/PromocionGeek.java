@@ -28,7 +28,7 @@ public class PromocionGeek {
         double totalLote = 0;
         int numeroTransaccion = 1;
 
-        System.out.println("--- LIQUIDACION DE STOCK ---");
+        System.out.println("LIQUIDACION DE STOCK");
         for (ProductoGeek producto : lote) {
             double precioVenta = producto.calcularPrecioVenta();
             double descuento = obtenerDescuento(producto);
@@ -40,7 +40,6 @@ public class PromocionGeek {
                     precioVenta, descuento * 100, precioFinal);
             numeroTransaccion++;
         }
-        System.out.println("-------------------------------------------------");
         System.out.printf("Total liquidado: $%.2f%n", totalLote);
     }
 

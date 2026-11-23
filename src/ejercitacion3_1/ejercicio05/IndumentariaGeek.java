@@ -36,10 +36,10 @@ public class IndumentariaGeek extends ProductoGeek {
         IndumentariaGeek remera = new IndumentariaGeek("IG-300", "Remera IT Guy", 12999.0, "M", "Algodon");
 
         // al imprimir el objeto se invoca automaticamente toString()
-        System.out.println("--- IMPRESION DIRECTA DEL OBJETO ---");
+        System.out.println("IMPRESION DIRECTA DEL OBJETO");
         System.out.println(remera);
 
-        System.out.println("\n--- CADENA DE LLAMADAS A toString() ---");
+        System.out.println("\nCADENA DE LLAMADAS A toString()");
         System.out.println("remera.toString()   -> " + remera.toString());
     }
 }

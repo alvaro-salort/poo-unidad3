@@ -37,12 +37,11 @@ public class CarritoCompras {
         carrito.agregarProducto(new IndumentariaGeek("IG-300", "Remera IT Guy", 12999.0, "M", "Algodon"));
         carrito.agregarProducto(new ProductoGeek("PG-100", "Mouse Gamer", 45000.0));
 
-        System.out.println("--- CARRITO CON COLECCION HETEROGENEA ---");
+        System.out.println("CARRITO CON COLECCION HETEROGENEA");
         System.out.printf("Productos en el carrito: %d%n", carrito.cantidadProductos());
         for (ProductoGeek producto : carrito.listaProductos) {
             System.out.printf("- %-20s $%.2f%n", producto.getNombre(), producto.calcularPrecioVenta());
         }
-        System.out.println("----------------------------------------------");
         System.out.printf("Total del carrito: $%.2f%n", carrito.calcularTotalCarrito());
     }
 }

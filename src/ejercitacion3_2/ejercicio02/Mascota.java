@@ -17,7 +17,7 @@ public class Mascota {
         Mascota mascota2 = new Mascota("Michi", "Gato", 7);
         Mascota mascota3 = new Mascota("Koki", "Loro", 2);
 
-        System.out.println("--- DESCRIPCION DE LAS MASCOTAS ---");
+        System.out.println("DESCRIPCION DE LAS MASCOTAS");
         System.out.println(String.format("Mascota 1: %-10s | Especie: %-8s | Edad: %d anios",
                 mascota1.nombre, mascota1.especie, mascota1.edad));
         System.out.println(String.format("Mascota 2: %-10s | Especie: %-8s | Edad: %d anios",
